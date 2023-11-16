@@ -1,0 +1,39 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Explore"
+    android:id="@+id/mExplore"
+    android:icon="@drawable/loc"
+    app:showAsAction="ifRoom"
+    />
+
+    <item
+        android:title="GO"
+        android:id="@+id/mGO"
+        android:icon="@drawable/commute"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="Saved"
+        android:id="@+id/mSaved"
+        android:icon="@drawable/bookmark"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Contribute"
+        android:id="@+id/mContribute"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Updates"
+        android:id="@+id/mUpdates"
+        android:icon="@drawable/notif"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>
